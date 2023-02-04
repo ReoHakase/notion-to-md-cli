@@ -15,7 +15,9 @@
 Just type the below command:
 
 ```bash
-deno run --allow-net=api.notion.com --allow-env=N2MD_NOTION_SECRET --allow-write --allow-read main.ts
+deno run --allow-net=api.notion.com --allow-env=N2MD_NOTION_SECRET --allow-write --allow-read https://raw.githubusercontent.com/ReoHakase/notion-to-md-cli/main/main.ts
+# or just
+deno run https://raw.githubusercontent.com/ReoHakase/notion-to-md-cli/main/main.ts
 ```
 
 It requires Deno to be installed.
