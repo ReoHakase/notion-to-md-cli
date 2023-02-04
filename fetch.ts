@@ -1,8 +1,6 @@
-import { z } from 'zod';
-import { colors } from 'cliffy/colors';
+import { Client, colors, NotionToMarkdown, z } from './deps.ts';
+
 import { fetchArgumentSchema } from './schema.ts';
-import { Client } from 'notion-sdk';
-import { NotionToMarkdown } from 'notion-to-md';
 import { countGrapheme, countLine, hideSecret } from './string.ts';
 
 export const fetchMarkdown = async (

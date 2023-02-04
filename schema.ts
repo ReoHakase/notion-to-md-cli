@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from './deps.ts';
 
 export const zodSchemaFieldValidatorFactory = (
   schema: z.ZodType,

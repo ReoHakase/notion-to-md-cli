@@ -2,16 +2,6 @@
   "tasks": {
     "dev": "deno run --watch main.ts"
   },
-  "imports": {
-    "zod": "https://deno.land/x/zod@v3.20.2/mod.ts",
-    "path": "https://deno.land/std@0.176.0/path/mod.ts",
-    "cliffy/command": "https://deno.land/x/cliffy@v0.25.7/command/mod.ts",
-    "cliffy/prompt": "https://deno.land/x/cliffy@v0.25.7/prompt/mod.ts",
-    "cliffy/colors": "https://deno.land/x/cliffy@v0.25.7/ansi/colors.ts",
-    "notion-sdk": "https://deno.land/x/notion_sdk@v1.0.4/src/mod.ts",
-    "notion-to-md": "https://deno.land/x/notion_to_md@v2.5.0/mod.ts",
-    "clippy": "https://deno.land/x/clippy@v0.2.0/mod.ts"
-  },
   "fmt": {
     "options": {
       "useTabs": false,

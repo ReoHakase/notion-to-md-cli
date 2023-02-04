@@ -1,6 +1,4 @@
-import { z } from 'zod';
-import { Input, Secret } from 'cliffy/prompt';
-import { colors } from 'cliffy/colors';
+import { colors, Input, Secret, z } from './deps.ts';
 import {
   exportArgumentSchema,
   fetchArgumentSchema,

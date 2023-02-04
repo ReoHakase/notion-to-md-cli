@@ -1,6 +1,5 @@
-import { z } from 'zod';
-import { basename, dirname, resolve } from 'path';
-import { colors } from 'cliffy/colors';
+import { basename, colors, dirname, resolve, z } from './deps.ts';
+
 import { exportArgumentSchema } from './schema.ts';
 
 export const writeMarkdown = async (

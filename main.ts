@@ -1,7 +1,6 @@
-import { Command } from 'cliffy/command';
-import { colors } from 'cliffy/colors';
-import { getExportArgument, getFetchArgument } from './prompt.ts';
+import { colors, Command } from './deps.ts';
 
+import { getExportArgument, getFetchArgument } from './prompt.ts';
 import { fetchMarkdown } from './fetch.ts';
 import { writeMarkdown } from './export.ts';
 
